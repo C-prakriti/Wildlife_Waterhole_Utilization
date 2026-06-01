@@ -35,7 +35,7 @@ filter_images <- function(df){         #df gives the subset of the dataset
     group_modify(~filter_images(.x)) %>%
     ungroup()
   
-  #Remove the helper column (filter_images)
+  #Remove the helper column
   filter_images <- filter_images %>%
     select(-time_diff)
   
