@@ -74,7 +74,7 @@ category_summary <- data %>%
 # 11. Export the categorized csv file and data frame
 write.csv(summary, "Temporal_activity_matrix.csv", row.names = FALSE)
 write.csv(category_summary, "category_summary_matrix.csv", row.names = FALSE)
-write.csv(data, "Temporal_metadata.csv", row.names = FALSE)
+write.csv(data, "Data/Temporal_metadata.csv", row.names = FALSE)
 
 
 
