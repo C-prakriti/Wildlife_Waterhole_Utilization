@@ -1,6 +1,6 @@
 #----------------
 #Project: Wildlife Waterhole Utilization
-#Purpose: To extract metadata from the image files
+#Purpose: To create independent events 
 #---------------
 
 #Load the required packages
