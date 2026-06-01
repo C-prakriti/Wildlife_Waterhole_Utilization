@@ -75,6 +75,6 @@ waterhole_species_metadata <- species_evenness %>%
 waterhole_species_metadata  
 
 #Export the final data as a csv file
-write.csv(waterhole_species_metadata, "waterhole_species_metadata.csv", row.names = FALSE)
+write.csv(waterhole_species_metadata, "Output/waterhole_species_metadata.csv", row.names = FALSE)
 
 
