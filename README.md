@@ -2,10 +2,10 @@
 This project contains data analysis, GIS workflow, camera trap processing and statistical modeling used to assess the utilization pattern of artificial waterholes by mammals 
 
 # Title
-An Assessment of Utilizaiton Pattern of Artificial Waterholes by Wildlie in Banke National Park
+An Assessment of Utilization Pattern of Artificial Waterholes by Wildlie in Banke National Park
 
 # Overview
-Artificial waterholes are a common habitat management strategy applied by park officials to ensure water availability during dry seasons. This project was carried out to see how effectively the artificial waterholes are being used by the wild animals and what characterstics of the waterholes or environmental factors influenced the species to use the waterhole. 
+Artificial waterholes are a common habitat management strategy used by park officials to ensure water availability during dry seasons. This project was carried out to see how effectively the artificial waterholes are being used by the wild animals and what characterstics of the waterholes or environmental factors influenced the species to use the waterhole. 
 
 # Objectives
 1. To analyze species richness, diversity, evenness and visitation patterns at artificial waterholes
@@ -51,10 +51,10 @@ In R
 - Dependent variable = Species visit, Species richness, Species evenness and Species diversity
 - Independent variable = Area of waterhole, Level of waterhole, Distance from nearest permanent water source, Distance from nearest active road and Distance from nearest settlement area
 - Fitted various models to determine the best model for each dependent variable. Gaussian model for species diversity, Poisson model for species richness and negative binomial model for species visit
-- The significance between dependent and independent variable was assessed = p-value (pr(>|z|).
+- The significance between dependent and independent variable was assessed using p-value (pr(>|z|).
 
 # Tools Used
-- R (4.5.3)
+- R (4.1.1)
 - ArcGIS
 - BR's Exif Extractor
 - Microsoft Excel
@@ -81,7 +81,7 @@ J --> L[Visualization & Mapping]
 ```
 
 # Key Results
-- The temporal activity differed. between prey and predators
+- The temporal activity differed between prey and predators
 - Waterholes with smaller area were visited more frequently.
 - Waterholes near the roads supported more species richness.
   
