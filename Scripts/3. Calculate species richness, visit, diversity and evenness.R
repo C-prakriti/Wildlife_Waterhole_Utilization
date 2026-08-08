@@ -41,7 +41,7 @@ matrix <- data_wide[,-1]
 # 2.3 Calculate shannon diversity
 values <- diversity(matrix,
                                index = "shannon")
-str(shannon_diversity)
+str(values)
 
 # 2.4 Combine the waterhole column
 species_diversity <- data.frame(
